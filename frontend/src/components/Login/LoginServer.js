@@ -6,10 +6,10 @@ const app = express();
 const port = 5000;
 
 const db = mysql.createConnection({
-  host: "Mga lods, kayo nalang mag connect sa database hahaha",
-  user: "",     
+  host: "localhost",
+  user: "root",     
   password: "",       
-  database: "" 
+  database: "checklist-1" 
 });
 
 app.use(express.json());
